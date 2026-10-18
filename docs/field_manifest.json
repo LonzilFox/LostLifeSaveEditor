@@ -1,0 +1,1217 @@
+{
+  "shared_object": "HLB02_Core_1.52",
+  "schema_version": "1.52",
+  "top_level_count": 59,
+  "nodes": 151,
+  "leaf_count": 133,
+  "fields": [
+    {
+      "path": "VolumeEffect",
+      "category": "音量与音效",
+      "label_zh": "效果音量",
+      "amf_type": "double",
+      "editable_leaf": true,
+      "certainty": "字段名推断"
+    },
+    {
+      "path": "VolumeBGM",
+      "category": "音量与音效",
+      "label_zh": "背景音乐音量",
+      "amf_type": "double",
+      "editable_leaf": true,
+      "certainty": "字段名推断"
+    },
+    {
+      "path": "VolumeVoice",
+      "category": "音量与音效",
+      "label_zh": "语音音量",
+      "amf_type": "double",
+      "editable_leaf": true,
+      "certainty": "字段名推断"
+    },
+    {
+      "path": "Total_Anside",
+      "category": "统计计数",
+      "label_zh": "Total_Anside",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "Total_Cum",
+      "category": "统计计数",
+      "label_zh": "Total_Cum",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "Total_Facial",
+      "category": "统计计数",
+      "label_zh": "Total_Facial",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "myPubes",
+      "category": "外观与配色",
+      "label_zh": "外观标志 myPubes",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "MouseLeftKey",
+      "category": "交互与操作",
+      "label_zh": "鼠标左键映射",
+      "amf_type": "string",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "HandAlpha",
+      "category": "画面与性能",
+      "label_zh": "界面手势透明度",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "字段名推断"
+    },
+    {
+      "path": "MouseRightKey",
+      "category": "交互与操作",
+      "label_zh": "鼠标右键映射",
+      "amf_type": "string",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "Total_PistonAN",
+      "category": "统计计数",
+      "label_zh": "Total_PistonAN",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "autoTypeTouch",
+      "category": "交互与操作",
+      "label_zh": "触控操作类型",
+      "amf_type": "string",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "Total_Tear",
+      "category": "统计计数",
+      "label_zh": "Total_Tear",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "Total_Mouth",
+      "category": "统计计数",
+      "label_zh": "Total_Mouth",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "Total_Lost",
+      "category": "统计计数",
+      "label_zh": "Total_Lost",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "ShakeLV",
+      "category": "画面与性能",
+      "label_zh": "震动强度",
+      "amf_type": "double",
+      "editable_leaf": true,
+      "certainty": "字段名推断"
+    },
+    {
+      "path": "Total_Orgsam",
+      "category": "统计计数",
+      "label_zh": "Total_Orgsam",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "MainHand",
+      "category": "交互与操作",
+      "label_zh": "惯用手",
+      "amf_type": "string",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "MeAlpha",
+      "category": "画面与性能",
+      "label_zh": "主体透明度",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "字段名推断"
+    },
+    {
+      "path": "LockFilm",
+      "category": "内部内容标志",
+      "label_zh": "内容标志 LockFilm",
+      "amf_type": "object",
+      "editable_leaf": false,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockFilm.fe",
+      "category": "内部内容标志",
+      "label_zh": "内容标志 LockFilm · fe",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockFilm.d1",
+      "category": "内部内容标志",
+      "label_zh": "内容标志 LockFilm · d1",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockFilm.ri",
+      "category": "内部内容标志",
+      "label_zh": "内容标志 LockFilm · ri",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockFilm.bath",
+      "category": "内部内容标志",
+      "label_zh": "内容标志 LockFilm · bath",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockFilm.m1",
+      "category": "内部内容标志",
+      "label_zh": "内容标志 LockFilm · m1",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockFilm.lied",
+      "category": "内部内容标志",
+      "label_zh": "内容标志 LockFilm · lied",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "ViewQuality",
+      "category": "画面与性能",
+      "label_zh": "画质预设",
+      "amf_type": "string",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockFeel",
+      "category": "内部内容标志",
+      "label_zh": "内部标志 LockFeel",
+      "amf_type": "object",
+      "editable_leaf": false,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockFeel.fe",
+      "category": "内部内容标志",
+      "label_zh": "内部标志 LockFeel · fe",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockFeel.m1",
+      "category": "内部内容标志",
+      "label_zh": "内部标志 LockFeel · m1",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockFeel.d1",
+      "category": "内部内容标志",
+      "label_zh": "内部标志 LockFeel · d1",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockFeel.ri",
+      "category": "内部内容标志",
+      "label_zh": "内部标志 LockFeel · ri",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockFeel.bath",
+      "category": "内部内容标志",
+      "label_zh": "内部标志 LockFeel · bath",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "ViewMode",
+      "category": "画面与性能",
+      "label_zh": "窗口模式",
+      "amf_type": "string",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockEye",
+      "category": "外观与配色",
+      "label_zh": "眼部配饰标志",
+      "amf_type": "object",
+      "editable_leaf": false,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockEye.glasses",
+      "category": "外观与配色",
+      "label_zh": "眼部配饰标志 · glasses",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockCos",
+      "category": "外观与配色",
+      "label_zh": "服装款式标志",
+      "amf_type": "object",
+      "editable_leaf": false,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockCos.swim",
+      "category": "外观与配色",
+      "label_zh": "服装款式标志 · swim",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockCos.xmas",
+      "category": "外观与配色",
+      "label_zh": "服装款式标志 · xmas",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockCos.uniform",
+      "category": "外观与配色",
+      "label_zh": "服装款式标志 · uniform",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockCos.cami",
+      "category": "外观与配色",
+      "label_zh": "服装款式标志 · cami",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "DateLast",
+      "category": "进度与日期",
+      "label_zh": "最后记录日期",
+      "amf_type": "date",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志",
+      "amf_type": "object",
+      "editable_leaf": false,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.neko",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · neko",
+      "amf_type": "array",
+      "editable_leaf": false,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.neko[0]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · neko[0]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.neko[1]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · neko[1]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.neko[2]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · neko[2]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.sox",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · sox",
+      "amf_type": "array",
+      "editable_leaf": false,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.sox[0]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · sox[0]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.sox[1]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · sox[1]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.sox[2]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · sox[2]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.sox[3]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · sox[3]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.sox[4]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · sox[4]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.sox[5]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · sox[5]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.cami",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · cami",
+      "amf_type": "array",
+      "editable_leaf": false,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.cami[0]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · cami[0]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.cami[1]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · cami[1]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.cami[2]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · cami[2]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.cami[3]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · cami[3]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.cami[4]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · cami[4]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.cami[5]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · cami[5]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.glasses",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · glasses",
+      "amf_type": "array",
+      "editable_leaf": false,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.glasses[0]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · glasses[0]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.glasses[1]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · glasses[1]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.glasses[2]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · glasses[2]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.swim",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · swim",
+      "amf_type": "array",
+      "editable_leaf": false,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.swim[0]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · swim[0]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.swim[1]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · swim[1]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.swim[2]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · swim[2]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.swim[3]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · swim[3]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.swim[4]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · swim[4]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.swim[5]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · swim[5]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.panty",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · panty",
+      "amf_type": "array",
+      "editable_leaf": false,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.panty[0]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · panty[0]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.panty[1]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · panty[1]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.panty[2]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · panty[2]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.panty[3]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · panty[3]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.panty[4]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · panty[4]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.panty[5]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · panty[5]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.skirt",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · skirt",
+      "amf_type": "array",
+      "editable_leaf": false,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.skirt[0]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · skirt[0]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.skirt[1]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · skirt[1]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.skirt[2]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · skirt[2]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.vest",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · vest",
+      "amf_type": "array",
+      "editable_leaf": false,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.vest[0]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · vest[0]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.vest[1]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · vest[1]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.vest[2]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · vest[2]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.bell",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · bell",
+      "amf_type": "array",
+      "editable_leaf": false,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.bell[0]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · bell[0]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.bell[1]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · bell[1]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "LockColor.bell[2]",
+      "category": "外观与配色",
+      "label_zh": "外观配色标志 · bell[2]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "TopDays",
+      "category": "进度与日期",
+      "label_zh": "记录日数",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "字段名推断"
+    },
+    {
+      "path": "LockSexM1",
+      "category": "内部内容标志",
+      "label_zh": "内部标志组 M1",
+      "amf_type": "object",
+      "editable_leaf": false,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockSexM1.cleanbody",
+      "category": "内部内容标志",
+      "label_zh": "内部标志组 M1 · cleanbody",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockSexM1.myhand",
+      "category": "内部内容标志",
+      "label_zh": "内部标志组 M1 · myhand",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockSexM1.change",
+      "category": "内部内容标志",
+      "label_zh": "内部标志组 M1 · change",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockSexM1.in_outside",
+      "category": "内部内容标志",
+      "label_zh": "内部标志组 M1 · in_outside",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockSexM1.opened_up",
+      "category": "内部内容标志",
+      "label_zh": "内部标志组 M1 · opened_up",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockSexM1.insert_a",
+      "category": "内部内容标志",
+      "label_zh": "内部标志组 M1 · insert_a",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockSexM1.in_inside",
+      "category": "内部内容标志",
+      "label_zh": "内部标志组 M1 · in_inside",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockSexM1.up_inside",
+      "category": "内部内容标志",
+      "label_zh": "内部标志组 M1 · up_inside",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockSexM1.up_outside",
+      "category": "内部内容标志",
+      "label_zh": "内部标志组 M1 · up_outside",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockSexM1.in_hit0",
+      "category": "内部内容标志",
+      "label_zh": "内部标志组 M1 · in_hit0",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockSexM1.up_hit0",
+      "category": "内部内容标志",
+      "label_zh": "内部标志组 M1 · up_hit0",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockSexM1.in_hit2",
+      "category": "内部内容标志",
+      "label_zh": "内部标志组 M1 · in_hit2",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockSexM1.cleanpussy",
+      "category": "内部内容标志",
+      "label_zh": "内部标志组 M1 · cleanpussy",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockSexM1.up_hit2",
+      "category": "内部内容标志",
+      "label_zh": "内部标志组 M1 · up_hit2",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "sideBoard",
+      "category": "交互与操作",
+      "label_zh": "侧栏",
+      "amf_type": "bool",
+      "editable_leaf": true,
+      "certainty": "字段名推断"
+    },
+    {
+      "path": "LockSexD1",
+      "category": "内部内容标志",
+      "label_zh": "内部标志组 D1",
+      "amf_type": "object",
+      "editable_leaf": false,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockSexD1.horny",
+      "category": "内部内容标志",
+      "label_zh": "内部标志组 D1 · horny",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockSexD1.insert_a",
+      "category": "内部内容标志",
+      "label_zh": "内部标志组 D1 · insert_a",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockSexD1.change",
+      "category": "内部内容标志",
+      "label_zh": "内部标志组 D1 · change",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "MainSide",
+      "category": "交互与操作",
+      "label_zh": "侧边偏好",
+      "amf_type": "string",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "qhelp",
+      "category": "交互与操作",
+      "label_zh": "帮助提示",
+      "amf_type": "bool",
+      "editable_leaf": true,
+      "certainty": "字段名推断"
+    },
+    {
+      "path": "LockSexFe",
+      "category": "内部内容标志",
+      "label_zh": "内部标志组 Fe",
+      "amf_type": "object",
+      "editable_leaf": false,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockSexFe.handjob",
+      "category": "内部内容标志",
+      "label_zh": "内部标志组 Fe · handjob",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockSexFe.blowjob",
+      "category": "内部内容标志",
+      "label_zh": "内部标志组 Fe · blowjob",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockSexFe.cumin",
+      "category": "内部内容标志",
+      "label_zh": "内部标志组 Fe · cumin",
+      "amf_type": "array",
+      "editable_leaf": false,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockSexFe.cumin[0]",
+      "category": "内部内容标志",
+      "label_zh": "内部标志组 Fe · cumin[0]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockSexFe.cumin[1]",
+      "category": "内部内容标志",
+      "label_zh": "内部标志组 Fe · cumin[1]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockSexFe.cumin[2]",
+      "category": "内部内容标志",
+      "label_zh": "内部标志组 Fe · cumin[2]",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockSexFe.lick1",
+      "category": "内部内容标志",
+      "label_zh": "内部标志组 Fe · lick1",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockSexFe.cumout",
+      "category": "内部内容标志",
+      "label_zh": "内部标志组 Fe · cumout",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockSexFe.lick2",
+      "category": "内部内容标志",
+      "label_zh": "内部标志组 Fe · lick2",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockSexFe.drag1",
+      "category": "内部内容标志",
+      "label_zh": "内部标志组 Fe · drag1",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "LockSexFe.drag2",
+      "category": "内部内容标志",
+      "label_zh": "内部标志组 Fe · drag2",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "qrec",
+      "category": "交互与操作",
+      "label_zh": "记录提示",
+      "amf_type": "bool",
+      "editable_leaf": true,
+      "certainty": "字段名推断"
+    },
+    {
+      "path": "ViewHeart",
+      "category": "心值与视图",
+      "label_zh": "心形显示模式",
+      "amf_type": "string",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "RecMode",
+      "category": "交互与操作",
+      "label_zh": "记录模式",
+      "amf_type": "bool",
+      "editable_leaf": true,
+      "certainty": "字段名推断"
+    },
+    {
+      "path": "Version",
+      "category": "语言与系统",
+      "label_zh": "游戏存档版本",
+      "amf_type": "string",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "ShakeMode",
+      "category": "画面与性能",
+      "label_zh": "震动开关",
+      "amf_type": "bool",
+      "editable_leaf": true,
+      "certainty": "字段名推断"
+    },
+    {
+      "path": "Lang",
+      "category": "语言与系统",
+      "label_zh": "语言代码",
+      "amf_type": "string",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "scaleAutoW",
+      "category": "画面与性能",
+      "label_zh": "自动缩放 W",
+      "amf_type": "bool",
+      "editable_leaf": true,
+      "certainty": "字段名推断"
+    },
+    {
+      "path": "scaleAutoF",
+      "category": "画面与性能",
+      "label_zh": "自动缩放 F",
+      "amf_type": "bool",
+      "editable_leaf": true,
+      "certainty": "字段名推断"
+    },
+    {
+      "path": "showFPS",
+      "category": "画面与性能",
+      "label_zh": "显示 FPS",
+      "amf_type": "bool",
+      "editable_leaf": true,
+      "certainty": "字段名推断"
+    },
+    {
+      "path": "Reso_F_W",
+      "category": "画面与性能",
+      "label_zh": "全屏比例宽",
+      "amf_type": "double",
+      "editable_leaf": true,
+      "certainty": "字段名推断"
+    },
+    {
+      "path": "Reso_F_H",
+      "category": "画面与性能",
+      "label_zh": "全屏比例高",
+      "amf_type": "double",
+      "editable_leaf": true,
+      "certainty": "字段名推断"
+    },
+    {
+      "path": "Reso_D_W",
+      "category": "画面与性能",
+      "label_zh": "窗口比例宽",
+      "amf_type": "double",
+      "editable_leaf": true,
+      "certainty": "字段名推断"
+    },
+    {
+      "path": "Reso_D_H",
+      "category": "画面与性能",
+      "label_zh": "窗口比例高",
+      "amf_type": "double",
+      "editable_leaf": true,
+      "certainty": "字段名推断"
+    },
+    {
+      "path": "DayHeart",
+      "category": "心值与视图",
+      "label_zh": "当日心值",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "SCZoomAuto",
+      "category": "画面与性能",
+      "label_zh": "场景自动缩放",
+      "amf_type": "double",
+      "editable_leaf": true,
+      "certainty": "字段名推断"
+    },
+    {
+      "path": "Horny",
+      "category": "角色状态",
+      "label_zh": "内部状态 Horny",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "Total_TimeLast",
+      "category": "进度与日期",
+      "label_zh": "累计时间相关数值",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "Broke",
+      "category": "角色状态",
+      "label_zh": "内部状态 Broke",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "Mute",
+      "category": "音量与音效",
+      "label_zh": "静音开关",
+      "amf_type": "bool",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "DAYS",
+      "category": "进度与日期",
+      "label_zh": "当前日数",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "字段名推断"
+    },
+    {
+      "path": "VolumeMaster",
+      "category": "音量与音效",
+      "label_zh": "主音量",
+      "amf_type": "double",
+      "editable_leaf": true,
+      "certainty": "字段名推断"
+    },
+    {
+      "path": "Agreement",
+      "category": "语言与系统",
+      "label_zh": "同意记录",
+      "amf_type": "bool",
+      "editable_leaf": true,
+      "certainty": "仅结构确认"
+    },
+    {
+      "path": "VolumeSound",
+      "category": "音量与音效",
+      "label_zh": "声音音量",
+      "amf_type": "double",
+      "editable_leaf": true,
+      "certainty": "字段名推断"
+    },
+    {
+      "path": "Total_Inside",
+      "category": "统计计数",
+      "label_zh": "Total_Inside",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    },
+    {
+      "path": "Total_Piston",
+      "category": "统计计数",
+      "label_zh": "Total_Piston",
+      "amf_type": "int",
+      "editable_leaf": true,
+      "certainty": "机制待验证"
+    }
+  ]
+}

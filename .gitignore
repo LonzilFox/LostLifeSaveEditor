@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.venv-build/
+build/
+dist/
+*.spec
+*.log
+*.sol
+*.bak
+*.tmp
+*.json
+!docs/field_manifest.json
+.DS_Store
+.vscode/
+.idea/
